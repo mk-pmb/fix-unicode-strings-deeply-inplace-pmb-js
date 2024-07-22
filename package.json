@@ -1,0 +1,54 @@
+{ "name": "fix-unicode-strings-deeply-inplace-pmb",
+  "version": "0.1.0",
+  "description": "Normalize/fix various common headaches with user-provided string inputs, deeply if given an object (including array).",
+  "keywords": [
+    "combining characters",
+    "decompose",
+    "decomposed characters",
+    "decomposed",
+    "diacritic characters",
+    "diacritic",
+    "fix",
+    "normalize",
+    "object",
+    "precomposed characters",
+    "precomposed",
+    "string",
+    "unicode"
+  ],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/fix-unicode-strings-deeply-inplace-pmb-js/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/fix-unicode-strings-deeply-inplace-pmb-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/fix-unicode-strings-deeply-inplace-pmb-js/issues"
+  },
+  "contributors": [],
+
+  "private": false, "license": "ISC",
+
+  "main": "index.js",
+  "scripts": { "test": "elp && nodemjs test/all.mjs" },
+  "directories": { "test": "test" },
+  "eslintConfig": { "extends": "nodejs-pmb" },
+
+  "dependencies": {
+  },
+  "devDependencies": {
+    "equal-pmb": "^0.1.28",
+    "eslint-config-nodejs-pmb": "^0.3.6",
+    "eslint-plugin-json-light-pmb": "^1.0.7",
+    "eslint-plugin-n": "^15.2.4",
+    "eslint-pretty-pmb": "^1.0.5",
+    "nodemjs": "^0.1.15",
+    "p-fatal": "^0.1.5",
+    "usnam-pmb": "^0.2.5"
+  },
+
+
+
+  "engines": { "npm": ">=7.0.0", "node": ">=8.0.0" }
+}
